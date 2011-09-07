@@ -1,0 +1,21 @@
+{ "name": "Velocity",
+  "scopeName": "source.velocity", 
+  "fileTypes": ["vm"], 
+  "patterns": [
+  	{
+	  	"match":"(##).*$\n?",
+  		"name":"comment.line.double-pound.vm",
+  		"comment":"Single line comment"
+  	},
+    {
+      "match":"(#if|#else|#end|#foreach|#set)",
+      "name":"keyword.control.vm",
+      "comment":"Flow controls"
+    },
+    {
+      "match":"=|==|\\!=|%amp;|&amp;&amp;|\\!&amp;|&gt;|&lt;|&lt;=|&gt;=|",
+      "name":"keyword.operator.vm"
+    }
+  ],
+  "uuid": "cafc6d57-118b-466e-b1a3-5b3ec2100377"
+}

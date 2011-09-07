@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>vm</string>
+	</array>
+	<key>name</key>
+	<string>Velocity</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Single line comment</string>
+			<key>match</key>
+			<string>(##).*$
+?</string>
+			<key>name</key>
+			<string>comment.line.double-pound.vm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Flow controls</string>
+			<key>match</key>
+			<string>(#if|#else|#end|#foreach|#set)</string>
+			<key>name</key>
+			<string>keyword.control.vm</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>=|==|\!=|%amp;|&amp;amp;&amp;amp;|\!&amp;amp;|&amp;gt;|&amp;lt;|&amp;lt;=|&amp;gt;=|</string>
+			<key>name</key>
+			<string>keyword.operator.vm</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.velocity</string>
+	<key>uuid</key>
+	<string>cafc6d57-118b-466e-b1a3-5b3ec2100377</string>
+</dict>
+</plist>
