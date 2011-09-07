@@ -1,5 +1,6 @@
-h1. Velocity template langue syntax files.
+# Velocity template langue syntax files.
 This is some very basic install and set up instructionsi. Please check out [http://www.sublimetext.com/docs/plugin-basics]. There you will find basic instructions on how to extend this into something greater.
-h2. Install
+
+## Install
 Place the Velocity dir in the packages directory.
 	/Users/${USER}/Library/Application\ Support/Sublime\ Text\ 2/Packages
